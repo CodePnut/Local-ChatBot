@@ -15,10 +15,26 @@ This project sets up a local chatbot that can answer questions based on the conv
 ## 🛠️ Setup
 
 1. **Clone the repository**:
+
    ```sh
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
+   ```
 
+2. **Create and activate a virtual environment**:
 
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
+3. **Install the required packages**:
+
+   ```sh
+   pip install langchain_ollama langchain_core
+   ```
+
+4. **Run the chatbot**:
+   ```sh
+   python main.py
    ```
